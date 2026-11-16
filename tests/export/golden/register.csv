@@ -1,0 +1,11 @@
+# dsh-open-items register export · exportSchema=1 · storeSchema=3 · plugin=0.1.0 · generatedAt=2026-11-13T23:45:00.000Z · filter='30 days · all sources' · records=6 · archive-excluded(1-omitted) · excerpts-included · nothing-pruned · columns=resolvedAt|sessionTitle|sessionId|itemId|title|kind|severity|outcome|decision|source|acknowledged|archived|excerpt|quote
+resolvedAt,sessionTitle,sessionId,itemId,title,kind,severity,outcome,decision,source,acknowledged,archived,excerpt,quote
+2026-11-13T22:41:00.000Z,dsh-highlights plugin code review,session-fixture-1,item-0001-approval,Install the corporate registry,approval,1,answered,allowed once — note: corporate registry only,user,acknowledged by retried call,false,The agent asked for one sandbox escalation to install the registry.,"bash — ""install the corporate registry"""
+2026-11-13T11:20:30.000Z,Hookshot review — <b>release</b> gate,session-fixture-2,item-0002-question,"Ship the migration before Friday? =HYPERLINK(""http://evil.example"",""click"")",question,2,answered,"Yes, before Friday.
+Then verify with =HYPERLINK(""http://evil.example"",""click"").",user,acknowledged by continued turn,false,"Line one, with a comma and a ""quoted"" word.
+Line two starts with =cmd|' /C calc'!A0
+Line three has <script>alert(""x"")</script> and </style> and & ampersand.","Answer ""yes"", then +1 and -2 and @SUM(A1) — 日本語 🦔 ✓"
+2026-11-13T09:15:00.000Z,Superset cleanup,session-fixture-3,item-0003-candidate,Want me to also update the docs?,follow-up,3,dismissed,"dismissed — not an item, docs follow-up",user,n/a,false,,
+2026-11-12T18:40:00.000Z,Release 0.2.2,session-fixture-4,item-0004-auto,Ship 0.2.2-rc.2,blocker,2,detected-closed,goal/resume,auto,acknowledged,false,,
+2026-11-12T07:05:00.000Z,dsh-highlights UI/UX,session-fixture-5,item-0005-superseded,Keep the 5-colour palette,decision,2,superseded,session/new-turn,auto,n/a,false,"The session resumed before the user answered, so the decision lost its context.",
+2026-11-12T07:05:00.000Z,dsh-highlights UI/UX,session-fixture-6,item-0006-tie,Rendering risk flagged in review,risk,3,answered,'=1+1 leave it scroll-only for now.,user,pending,false,,

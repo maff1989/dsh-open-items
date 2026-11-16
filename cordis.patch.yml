@@ -1,0 +1,22 @@
+# Bundle layer for the dsh-open-items plugin.
+# A profile that lists this bundle composes this one Loader row; the browser half
+# is discovered from `dsh.client` in package.json (one row serves both halves).
+- insert:
+    - id: open-items
+      name: dsh-open-items
+      config:
+        # Legacy P0 JSON document imported once; empty means <DSH_HOME>/open-items/store.json.
+        # The durable v3 data lives in the `open_items` storage domain.
+        storePath: ''
+        maxLiveItems: 500
+        listLimit: 20
+        activeResolveDays: 365
+        maxResolvedRecords: 5000
+        acknowledgementWindowHours: 24
+        # Opt-in model-assisted prose extraction (also needs the Settings toggle).
+        # Empty provider/model disables extraction entirely: no egress.
+        extractionProvider: ''
+        extractionModel: ''
+        extractionDailyBudget: 20
+        extractionTimeoutMs: 8000
+        extractionMaxInputBytes: 8192

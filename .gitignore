@@ -1,0 +1,9 @@
+node_modules/
+lib/
+tests/.tmp-*/
+.pnpm-store/
+.pnpm-cache/
+*.log
+tests/acceptance/last-run.json
+*.tsbuildinfo
+.DS_Store
